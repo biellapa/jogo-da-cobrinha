@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jogo da cobrinha</title>
+</head>
+<body>
+    <canvas id="stage" width="400" height="400"></canvas>
+    <script src="script.js">
+
+        window.onload = function(){
+            var stage = document.getElementById('stage');
+            var ctx = stage.getContex("2d");
+            ctx.fillStyle = "black"
+            ctx.fellReact(0,0,stage.width, stage.heigth);
+        }
+
+    </script>
+</body>
+</html>
